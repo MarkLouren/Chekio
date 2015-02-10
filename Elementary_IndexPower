@@ -1,0 +1,5 @@
+def index_power(array, n):
+ if  0 < len(array) <= 10 and (n+1)<=len(array):
+     return (array[n]**n)
+ else:
+     return (-1)
